@@ -141,6 +141,7 @@ jobs:
         rm -rf profiles.json
         rm -rf *rootfs.img
         rm -rf *rootfs.tar.gz
+        rm -rf *-bl2.bin
         rm -rf *.manifest
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "status=success" >> $GITHUB_OUTPUT
